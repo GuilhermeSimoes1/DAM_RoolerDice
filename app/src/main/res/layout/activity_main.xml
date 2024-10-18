@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simulador de lançamento de Dados"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        />
+
+        <!-- texto a representar o valor DADO -->
+        <TextView
+            android:id="@+id/textViewValorDado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hgt"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+    <ImageView
+        android:id="@+id/imageViewDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/empty_dice" />
+
+    <Button
+        android:id="@+id/btRodaDado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/textoBT"
+        android:textSize="18sp" />
+
+</LinearLayout>
